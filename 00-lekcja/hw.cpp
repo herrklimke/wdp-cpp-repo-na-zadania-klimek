@@ -2,7 +2,11 @@
 
 using namespace std;
 
+string name;
+
 int main(){
- cout << "hello" << endl;
+ cout << "podaj imie: ";
+ cin >> name;
+ cout << "czesc " << name << "!" << endl;
  return 0;
 }
